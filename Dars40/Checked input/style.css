@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+span {
+    display: inline-block;
+}
+.big{
+    min-height: 100dvh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: no;
+}
+.form{
+    background-color: black;
+    padding: 150px 200px;
+    border-radius: 35px;
+    
+}
+.label{
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    background-color: darkblue;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    margin: 10px 0;
+}
+.title{
+    background-color: black;
+}
+.circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid dodgerblue;
+    position: relative;
+}
+.circle::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-100%,-100%) scale(2);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: dodgerblue;
+    opacity: 0;
+    transition: 0.3s all linear;
+}
+.input:checked ~ .circle::before{
+    opacity: 1;
+    transform: scale(1);
+}
+.input:checked  label{
+    border: 2px solid dodgerblue;
+}
+.input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    border: 0;
+    margin: -1px;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+}
+@media (max-width:705px) {
+    .form{
+        padding: 20px 30px;
+    }
+}

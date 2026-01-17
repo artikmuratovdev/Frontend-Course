@@ -1,11 +1,226 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-  <h1>hello world</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Course</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family:
+          -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+          Cantarell, sans-serif;
+        background-color: #0d1117;
+        color: #c9d1d9;
+        padding: 40px 20px;
+      }
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      h1 {
+        color: #58a6ff;
+        margin-bottom: 10px;
+        font-size: 32px;
+      }
+      .description {
+        color: #8b949e;
+        margin-bottom: 30px;
+        font-size: 16px;
+      }
+      .section {
+        margin-bottom: 40px;
+      }
+      .section h2 {
+        color: #f0883e;
+        font-size: 24px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #21262d;
+        padding-bottom: 10px;
+      }
+      .links-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 15px;
+      }
+      .link-item {
+        background-color: #161b22;
+        border: 1px solid #30363d;
+        border-radius: 6px;
+        padding: 16px;
+        transition: all 0.2s ease;
+        text-decoration: none;
+        display: block;
+      }
+      .link-item:hover {
+        background-color: #1c2128;
+        border-color: #58a6ff;
+        transform: translateY(-2px);
+      }
+      .link-item h3 {
+        color: #58a6ff;
+        font-size: 18px;
+        margin-bottom: 5px;
+      }
+      .link-item p {
+        color: #8b949e;
+        font-size: 14px;
+      }
+      .folder-icon {
+        margin-right: 8px;
+        color: #58a6ff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>📚 Frontend Course</h1>
+      <p class="description">HTML, CSS va JavaScript darslari</p>
+
+      <div class="section">
+        <h2>HTML & CSS Darslari</h2>
+        <div class="links-grid">
+          <a href="Dars0/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> Dars 0</h3>
+            <p>Boshlang'ich dars</p>
+          </a>
+          <a href="Dars1/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> Dars 1</h3>
+          </a>
+          <a href="Dars2/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> Dars 2</h3>
+          </a>
+          <a href="Dars3/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> Dars 3</h3>
+          </a>
+          <a href="Dars5/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> Dars 5</h3>
+          </a>
+          <a href="Dars6/inde.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> Dars 6</h3>
+          </a>
+          <a href="Dars7/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> Dars 7</h3>
+          </a>
+          <a href="Dars8/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> Dars 8</h3>
+          </a>
+          <a href="Dars9/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> Dars 9</h3>
+          </a>
+          <a href="Dars10/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> Dars 10</h3>
+          </a>
+          <a href="Dars11/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> Dars 11</h3>
+          </a>
+          <a href="Dars13/index1.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> Dars 13</h3>
+          </a>
+          <a href="Dars14/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> Dars 14</h3>
+          </a>
+          <a href="Dars15/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> Dars 15</h3>
+          </a>
+          <a href="Dars16 form/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> Dars 16</h3>
+            <p>Form darsi</p>
+          </a>
+          <a href="Dars17/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> Dars 17</h3>
+          </a>
+          <a href="Dars18 form davomi/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> Dars 18</h3>
+            <p>Form davomi</p>
+          </a>
+          <a href="Dars19/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> Dars 19</h3>
+          </a>
+          <a href="Dars20/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> Dars 20</h3>
+          </a>
+          <a href="Dars21/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> Dars 21</h3>
+          </a>
+          <a href="Dars22/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> Dars 22</h3>
+          </a>
+          <a href="Dars23/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> Dars 23</h3>
+          </a>
+          <a href="Dars24/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> Dars 24</h3>
+          </a>
+          <a href="Dars25/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> Dars 25</h3>
+          </a>
+          <a href="Dars26/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> Dars 26</h3>
+          </a>
+          <a href="Dars27/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> Dars 27</h3>
+          </a>
+          <a href="Dars28/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> Dars 28</h3>
+          </a>
+          <a href="Dars29/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> Dars 29</h3>
+          </a>
+          <a href="Dars30/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> Dars 30</h3>
+          </a>
+          <a href="Dars32/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> Dars 32</h3>
+          </a>
+          <a href="Dars33/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> Dars 33</h3>
+          </a>
+          <a href="Dars35/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> Dars 35</h3>
+          </a>
+          <a href="Dars36/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> Dars 36</h3>
+          </a>
+          <a href="Dars38/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> Dars 38</h3>
+          </a>
+          <a href="Dars39/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> Dars 39</h3>
+          </a>
+          <a href="Dars40/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> Dars 40</h3>
+          </a>
+          <a href="Dars41/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> Dars 41</h3>
+          </a>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>JavaScript Darslari</h2>
+        <div class="links-grid">
+          <a href="JavaScript2/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> JavaScript 2</h3>
+          </a>
+          <a href="JavaScript4/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> JavaScript 4</h3>
+          </a>
+          <a href="Javascript5/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> JavaScript 5</h3>
+          </a>
+          <a href="JavaScript6/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> JavaScript 6</h3>
+          </a>
+          <a href="JavaScript7/index.html" class="link-item">
+            <h3><span class="folder-icon">📁</span> JavaScript 7</h3>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

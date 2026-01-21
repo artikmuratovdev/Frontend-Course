@@ -1,4 +1,4 @@
-/* *{
+*{
     margin: 0;
     box-sizing: border-box;
 }
@@ -37,7 +37,7 @@
 }
 .person1{
     border: 0;
-} */
+}
 
 .box{
     width: 400px;
